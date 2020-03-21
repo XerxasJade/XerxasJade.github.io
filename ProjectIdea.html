@@ -8,7 +8,6 @@ class="is-preload">
 
 		<!-- Wrapper --> <div id="wrapper" class="fade-in">
 
-
 				<!-- Header --> <header id="header"> <a href="index.html"
 				class="logo">About Mara Jade - Personal Info</a> </header>
 
@@ -31,136 +30,84 @@ class="is-preload">
 													2020</span> <h1> Project Idea</h1> </header>
 
 															<p> <h2>Project Idea <br /> Modular ECU / BCU for
-															Motorsport<br /></h2> 1000 Words Overview 100 My
-															project is to create an open source firmware that
-															can installed on a small form factor device
-															similar to a raspberry pie that can be used as a
-															aftermarket ECU for performance tuning
-															applications, the device would support having
-															multipule inpounts both analug and ditital and be
-															able to output lowvoltage switched outputs that
-															could be connected to relays or driveres depending
-															on voltage to remove manufactura limitations and
-															allow for custom mosotrport required options such
-															as, anti lag, throttle blipping, launch control,
-															drive by wire and wireless sterrinwhell controls.
-															Motovation 100 I believe there is demand for a
-															single one stop prouduct that can both act as a
-															ECU and body control modual that can be used in
-															motosport and tunning applications. There are
-															several companies that like Motec, Haltec, Link,
-															AEm & several others that already make engine
-															management systems. There are also several
-															companies such as Cartek and Summit Racing that
-															make Wireless Steeri8ng wheel control systems but
-															(with the exception of Motec) there are no out of
-															the box single supplier options that are
-															affordable at a commercial level.. It is ture that
-															Motec do currently make all in one a bus system
-															for there ECU’s but it is not affordable for most
-															grass roots teams with the base unit retailing at
-															$6841 USD for a Motec M142 GPR Pro with Logging.
-															https://www.motorsportselectronics.com/products/motec-m142?variant=12346090564
-															Description 500 The product would intergrate
-															fetaues of a normal ECU and a Normal Car body
-															mamgment system into a single unit. It is
-															important that it has the ability to perform all
-															the standard motorsport requirements as this would
-															be the target market, phase 1 would only support
-															petrol & E85 only with a max of 8 cylinders
-															running Direct injections. It would also require:
-															Drvie by wire, squencual and non squensual spark,
-															Variable cam control, know detection Anti lag,
-															throttle blipping, launch control, traction
-															control, auto throttle blip (for full throttle
-															shifting) speed limiting, paddle shift support.
-															Addtionaly it would require digital & analoug
-															inputs as well as digital and anlog outputs to
-															drive relays and bar body features. I forsee the
-															unit consisting of multipull small units that can
-															be networked together to create a whole system, so
-															that a end user could by the components that they
-															need rather than the current all or nothing
-															approach taken by many ecu manufcturers. This
-															would also allow to phase features in and out
-															based on demand without re engineering the entire
-															product. I would endevour to use off the shelf
-															products like IP67 enthernet cables so that the
-															produc is rugerdised but also easily maintainable
-															while still being able to utilize established
-															communication proticoles without relaying on
-															propitry ones thus allowing for more modularity
-															and on the fly off the shelf repairs when parts
-															fail. It would also mean they entery point would
-															be a lot easier as a customer could purchase the
-															engine managmdet system and then add body control,
-															cameras, knock system etc as required which would
-															be a uneek approach currently not available. The
-															body management system would control everything
-															from headlights, indicaters, wipers, electronic
-															diff’s and any non engine system on the car
-															including the provision for solid state engine and
-															fule kill switcxhes and fire management systems
-															all from the wireless streering wheel control,
-															doing away with cabling issues and wire failure
-															due to constand movement which would again address
-															a common cause of failuyre in current technology.
-															This would most likely be handled over either
-															Bluetooth or 8011.bgn. current rally cars already
-															utilize wifi to assist with tracking so building a
-															system that could intgrate the wifi would also
-															require less duplication and save weight. The
-															system would run a onboard device that had a
-															primary output be to a android or apple tablet
-															connected via usb this would allow the user to
-															both view and change settings easily without the
-															need to get out a dedicated pc just to tune the
-															car. This could also be expanded to include a
-															second out put for the navigator that could show
-															the current gps location and other navagor
-															specific told for use in rallying. This would
-															further improve cost viability because rather than
-															using specilised custom mad lcd sceens the end
-															user could use off the shelf products and just
-															download the app, then the devices could be
-															mounted in the vecvhial using RAM mounts (which
-															are already FIA approved) for that exqact
-															application meaning less cusom engineering.
+															Motorsport<br /></h2> <h3>Overview</h3> My project
+															is to create a modular ECU (engine control unit)
+															/BCU (body control unit) to improve affordability
+															for entry level competitors in motorsport, while
+															being scalable for more advanced motorsport teams.
+															This would be used for performance tuning
+															applications. The device would support having
+															multiple inputs and outputs of both analogue and
+															digital, and could be connected to relays or
+															sensors depending on voltage, to remove
+															manufacturer limitations. This would allow for
+															vehicle customisation such as, anti-lag, throttle
+															blipping, launch control, drive-by-wire, and
+															wireless steering-wheel controls, while still
+															being modular so the end user would only need to
+															purchase the functions that they require.<br />
 
- https://catalog.belden.com/techdata/EN/E506001_techdata.pdf
+<br /><h3> Motivation </h3>
 
- Tools and Tech 100 The project would require two main applications, the first
- application would be the QUI that the end user would use, this would be in the
- form of an android/apple app so that it could work on a tablet. This would
- allow for customized inputs and isplay screens to monitor the engie data and
- display dash information. Ther second piece of software would be a program that
- would actually go on the device and control would respond to the vairus inputs
- and control the out puts of the various systems as per all modern ecu’s this
- would aslo include networking systems so that it can link with the additional
- moduals Lastly there would be a number of different units that can all connect
- via ruggdised ethernet cables: Main ECU and Engine Mamgnet Box Body Control Box
- (Lights indicators, paddle shifts, whipers etc) Drive by wire actuator and
- potentiometer
+I believe there is demand for a product that can act as a ECU and BCU module
+that can be used in motorsport and tuning applications. There are several
+companies, for example; Motec(1), Haltec(2), Link(3), AEM(4) & several others
+that already make engine management systems. There are also several companies
+such as Cartek(5) and Summit Racing(6) that make BCU’s and Wireless Steering
+wheel control systems but (with the exception of Motec) there are no ‘out of the
+box’ single supplier options that are affordable at a grass roots level. Motec
+currently make an all-in-one bus system for their ECU’s, but it is not
+affordable for most grass roots teams, with the Motec M142 GPR Pro with Logging
+unit retailing at $6841 USD(7) without a screen or any additional features like
+shift controllers and sensors packages.<br />
 
- Skills 100 I would require someone with extensive programing knowledge to both
- make the APP and signigcant experience in C to write the software for the
- individual units. There are already many networking options available on the
- market that the end user could self source The main hardware would need to be
- made using a microprocessor board with a expansion board that could handle the
- required inputs and outs, on average this generally sits around 40 of each.
- This would need to be sourced or made and would be mopst significant expence
- for the project as relliablity of the MCU will be very important. Outcome 100
- Should the project be successful you would end up with a produc that is
- saclaible, realliable and available to a large portion of the market than
- current options. People would be able to start with an initial small investment
- and as they develop there cars purchase the add on options they need and
- install them with little technical input using off the shelf parts that are
- easily sorced. This would hopefully garner market sshare and also make it a lot
- easier for people to break into a sport that is increasingly becoming to
- expensive to copete in, and make it more affordable for grase roots levels of
- the sport.
+<br /><h3>Description</h3>
 
-</p> </div>
+My product would integrate features of a normal ECU and a normal Car BCU into
+several smaller units. It is important that it has the ability to perform all
+the standard motorsport requirements as this would be the target market. Phase 1
+would only support petrol & E85, with a max of 8 cylinders running direct
+injections.<br /> It would also require:<br /> •	Anti-lag<br /> •	Auto throttle
+blip (for full throttle shifting)<br /> •	Drive by wire<br /> •	Flex-fuel
+support<br /> •	Knock detection<br /> •	Launch control<br /> •	Paddle shift
+support<br /> •	Speed limiting<br /> •	Traction control<br /> •	Variable cam
+control<br /> •	Wasted spark and sequential ignition<br /><br /> Some of these
+would be in the base unit, whilst others like drive-by-wire would be an optional
+extra that makes use of the in-car network. Additionally, it would require a
+second module for the digital and analog inputs and outputs to drive relays and
+BCU features.<br /> I foresee the unit consisting of multiple small units that
+can be networked together to create a whole system, so that an end user could
+buy the components that they need, rather than the current all or nothing
+approach taken by many ecu manufacturers. This would also allow for the
+manufacturer to add and remove featured based on demand without re-engineering
+the entire product, helping with life cycle and compatibility issues.<br /><br
+/> The product would be able to be installed with off the shelf ethernet cables
+running at 1Gbps, but would come with the recommendation to use ruggedized
+cables in environmentally exposed areas. By using established communication
+cabling and not relying on proprietary ones, this allows for more modularity and
+for easy urgent repairs when parts fail. It would also mean the initial purchase
+of this system would be a lot cheaper as a customer could purchase the ECU and
+then add features they want in a customizable system that is currently not
+available. My BCU module would control everything from headlights, indicators,
+wipers, electronic differentials and any non-engine system on the car including
+the provision for solid state engine and fuel kill switches, and fire management
+systems, all from the wireless steering wheel controls. This would eliminate
+cabling issues and wire failure due to constant movement of the steering wheel.
+This is a common cause of failure in current technology and my product will
+eliminate this problem. This would most likely be handled over either Bluetooth
+or 802.11bgn. Current rally cars already utilize Wi-Fi to assist with tracking,
+so building a system that could integrate the Wi-Fi would also require less
+duplication and save weight. The system would run a primary output device such
+as an android or apple tablet connected via USB or Wi-Fi. This would allow the
+user to both view and change settings easily without the need to get out a
+dedicated pc just to tune the car. This could also be expanded to include a
+second output for the navigator that could show the current GPS location and
+other navigator specific information for use in rallying. This would further
+improve cost viability because rather than using specialised custom made LCD
+sceens, the end user could use off the shelf products and just download the app.
+Then the devices could be mounted in the vehicle using RAM mounts (which are
+already FIA approved) for that exact application meaning less custom
+engineering. </p> </div>
 
 <!-- Refrences & links --> <div id="copyright"> <ul><li>References:<br /><br />
 [1]"MoTeC", Motec.com.au, 2020. [Online]. <br />Available:
